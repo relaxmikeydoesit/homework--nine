@@ -1,0 +1,33 @@
+footer {
+    width: 100%;
+    height: 150px;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+    background-color: #010080;
+
+    .logo {
+        width: 125px;
+        height: 125px;
+        background-image: url(../images/works-footer.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    .copy {
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+    .contact {
+        margin-right: 10px;
+        p {
+            font-size: 20px;
+            color: #ffffff;
+
+        }
+    }
+}
